@@ -5,9 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="practice.js"></script>
+    <link rel="stylesheet" href="style/main.css">
+    <script src="js/scripts.js"></script>
+    <!-- <script src="practice.js"></script> -->
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Simple JavaScript Quiz</h1>
+            <p>Test your knowledge in <strong>JavaScript Fundamentals</strong></p>
+        </header>
+        
+        <section>
+            <div id="results"></div>
+            <form action="" name="quizForm" onsubmit="return submitAnswers()">
+                <h1>1. In which HTML element do we put in JavScript code?</h1>
+                <input type="radio" name="q1" value="a" id="q1a">a. &lt;js&gt;<br>
+                <input type="radio" name="q2" value="b" id="q2a">b. &lt;script&gt;<br>
+                <input type="radio" name="q3" value="c" id="q3a">c. &lt;body&gt;<br>
+                <input type="radio" name="q4" value="d" id="q4a">d. &lt;link&gt;<br>
+
+                <h1>2. Which HTML tag is used to referance an external JavScript file?</h1>
+                <input type="radio" name="q2" value="a" id="q2a">a. src<br>
+                <input type="radio" name="q2" value="b" id="q2b">b. rel<br>
+                <input type="radio" name="q2" value="c" id="q2c">c. type<br>
+                <input type="radio" name="q2" value="d" id="q2d">d. href<br>
+
+                <h1>3. How would you write hello in an alert box?</h1>
+                <input type="radio" name="q3" value="a" id="q3a">a. msg("Hello");<br>
+                <input type="radio" name="q3" value="b" id="q3b">b. alertBox("Hello";)<br>
+                <input type="radio" name="q3" value="c" id="q3c">c. document.write("Hello");<br>
+                <input type="radio" name="q3" value="d" id="q3d">d. alert("Hello");<br>
+
+                <h1>4. JavaScript is directly related to the 'Java' programming language?</h1>
+                <input type="radio" name="q4" value="a" id="q4a">a. True<br>
+                <input type="radio" name="q4" value="b" id="q4b">b. False<br>
+
+                <h1>5. An element in JavaScript must start with which character?</h1>
+                <input type="radio" name="q5" value="a" id="q5a">a. @<br>
+                <input type="radio" name="q5" value="b" id="q5b">b. $<br>
+                <input type="radio" name="q5" value="c" id="q5c">c. #<br>
+                <input type="radio" name="q5" value="d" id="q5d">d. No Special Character<br>
+                <br><br>
+                <input type="submit" value="Submit Answers">
+            </form>
+        </section>
+
+        <footer>
+            <p>Copyright &copy; 2020, All Rights Reserved</p>
+        </footer>
+    </div>
 </body>
 </html>
