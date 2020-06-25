@@ -32,4 +32,7 @@ function submitAnswers() {
 
     // Display result
     alert("You scored " + score + " out of " + total);
+    result = document.getElementById('results');
+    result.innerHTML = "<h3>You Scored <span>" +score+"</span> out of <span>" +total+ "</span></h3>"
+    return false;
 }
