@@ -1,5 +1,5 @@
-# Quiz Application 
-###Using HTML, CSS, JavaScript
+# Quiz Application
+### Using HTML, CSS, JavaScript
 ##### *A very basic Quiz Web app*
 
 A simple website consisting of some Quiz Questions.
