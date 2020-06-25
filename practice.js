@@ -40,3 +40,9 @@ function sayIt(ward) {
     alert(ward);
 }   
 // sayIt("Hello There!");
+
+function addIt(num1, num2) {
+    alert(num1 + num2);
+}
+
+// addIt(23, 34);
